@@ -1,0 +1,21 @@
+.moviecard {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.moviecard > img{
+    height:300px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+
+
+.moviecard > img:hover{
+    transform: scale(1.1);
+    background-color: cornsilk;
+   
+}
+
+

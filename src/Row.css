@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 50px;
+}
+
+.row::-webkit-scrollbar{
+    display: none;
+}
+  
+h1{
+    text-align: left;
+    margin-left: 50px;
+    color: white;
+}

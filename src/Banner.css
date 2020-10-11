@@ -1,0 +1,15 @@
+.banner{
+    margin-top: 0px;
+    height: 550px;
+    object-fit: contain;
+
+}
+
+.banner > h1 {
+    text-align: justify;
+    position: relative;
+    top:300px;
+    left:0px;
+    font-weight: bolder;
+    font-size: 80px;
+    }
