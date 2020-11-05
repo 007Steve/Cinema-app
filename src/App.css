@@ -1,9 +1,11 @@
 .App {
- 
   background-color: #6d026d;
-  background-image: linear-gradient(329deg, #6d026d 0%, #341979 50%, #05010d 100%);
-  padding: 0;
-  margin: 0;
-  
+  background-image: linear-gradient(
+    329deg,
+    #6d026d 0%,
+    #341979 50%,
+    #05010d 100%
+  );
+  padding: 0px;
+  margin: 0px;
 }
-
