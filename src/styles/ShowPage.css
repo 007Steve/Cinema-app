@@ -1,6 +1,6 @@
 .showPage {
   color: aliceblue;
- height: 100vh;
+
 }
 
 .header-containers {
@@ -40,12 +40,14 @@
   text-transform: uppercase;
   border-radius: 3px;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: rgb(255, 255, 255);
 }
 
 .buttons:hover {
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(245, 245, 245, 0.603);
   border: 1px solid white;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .iconss {
   cursor: pointer;
