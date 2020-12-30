@@ -12,10 +12,10 @@ function MovieCard({ movie }) {
           alt={movie.title}
           key={movie.id}
         />
-        <div className="moviecard__hoverInfo">
+        {/* <div className="moviecard__hoverInfo">
           <h4>{movie.title || movie.name}</h4>
           <p>{movie.overview}</p>
-        </div>
+        </div> */}
       </div>
     </Link>
   );
