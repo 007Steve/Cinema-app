@@ -15,6 +15,7 @@
   object-fit: contain;
   cursor: pointer;
   transition: transform 450ms;
+transform: scale(0.9);
 }
 
 .moviecard__hoverInfo {
