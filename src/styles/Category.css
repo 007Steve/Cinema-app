@@ -1,0 +1,16 @@
+.category {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+}
+
+.category::-webkit-scrollbar {
+  display: none;
+}
+
+.category > h1 {
+  display: flex;
+  color: white;
+  cursor: pointer;
+}

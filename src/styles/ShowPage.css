@@ -1,0 +1,112 @@
+.showPage {
+  color: aliceblue;
+ height: 100vh;
+}
+
+.header-containers {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/the-mandalorian-season-2-tv-series-2020-3840x2160-2765.jpg"); /* The image used */
+  background-color: #1a1d29; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  /* background-position-y: center; Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.showPage-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  background: -webkit-linear-gradient(rgb(248, 227, 255), rgb(182, 182, 182));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.buttons-conatainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.buttons {
+  padding: 1rem;
+  width: 150px;
+  border: 1px solid white;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin: 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: rgba(0, 0, 0, 0.603);
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+}
+.iconss {
+  cursor: pointer;
+  margin: 0.4rem;
+}
+.iconss:hover {
+  color: #01e7f5;
+}
+
+.shade {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  position: relative;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(26, 23, 23, 0.836) 48%,
+    rgba(2, 2, 2, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  bottom: 40px;
+}
+.showPages-info-container {
+  display: flex;
+  align-items: flex-start;
+}
+.showPage-image {
+  height: 350px;
+  margin-left: 1rem;
+}
+
+.showPage-details-contaner {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.showPage-synopsis-title {
+}
+.space {
+  margin-bottom: 1.5rem;
+}
+
+.showPage-synopsis-container {
+  display: flex;
+  align-items: center;
+  width: 97%;
+  margin-bottom: 1.5rem;
+}
+hr {
+  flex: 1;
+  margin-left: 1rem;
+  border: 1px solid rgba(250, 250, 250, 0.041);
+}
+
+.showPage-star-picture {
+  width: 90px;
+  border-radius: 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}

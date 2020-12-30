@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.801);
+  color: rgb(255, 255, 255);
+}
+.nav__logoContainer {
+  margin: 0;
+  margin-left: 20px;
+  background-color: aqua;
+}
+.nav__logo {
+  height: 45px;
+}
+
+.nav__pic{
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 50px;
+}
+
