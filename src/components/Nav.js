@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Nav.css";
 import Avatar from "@material-ui/core/Avatar";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { selectUser, logout } from "../features/userSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { auth } from "../firebase";
