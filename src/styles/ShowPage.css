@@ -1,6 +1,5 @@
 .showPage {
   color: aliceblue;
-
 }
 
 .header-containers {
@@ -85,8 +84,6 @@
   justify-content: space-evenly;
 }
 
-.showPage-synopsis-title {
-}
 .space {
   margin-bottom: 1.5rem;
 }
@@ -114,7 +111,6 @@ a {
 }
 @media only screen and (min-width: 1500px) {
   .showPage {
-  height: 100vh;
-  
+    height: 100vh;
   }
 }

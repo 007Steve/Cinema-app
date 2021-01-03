@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.801);
+  background-color: rgba(0, 0, 0, 0.192);
   color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  width: 98.9vw;
 }
 .nav__logoContainer {
   margin: 0;
@@ -12,11 +15,11 @@
 }
 .nav__logo {
   height: 45px;
+  padding-right: 20px;
 }
 
-.nav__pic{
+.nav__pic {
   margin-right: 20px;
   height: 30px;
   border-radius: 50px;
 }
-
