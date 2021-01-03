@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/ShowPage.css";
-import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
-import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
 import { useParams } from "react-router-dom";
 import Nav from "../components/Nav";
 import { useState } from "react";
@@ -21,7 +19,7 @@ function ShowPage() {
         .then((data) => setMovie(data));
     }
     fetchData();
-  }, []);
+  }, [id]);
 
   return (
     <div className="showPage">
