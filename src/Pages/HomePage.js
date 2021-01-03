@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/HomePage.css";
-import Header from "../components/Header.js";
 import Row from "../components/Row.js";
 import fetch from "../fetch";
 import Banner from "../components/Banner";
