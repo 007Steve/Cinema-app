@@ -20,7 +20,7 @@ function Banner({ url }) {
 
   return (
     <>
-      <Nav/>
+     <Nav/>
       <div
         className="banner"
         style={{
@@ -29,7 +29,7 @@ function Banner({ url }) {
           backgroundPosition: "center center",
         }}
       >
-      
+       
         <h1 className="banner-title">
           {movie?.title || movie.name || movie?.original_name}
         </h1>
