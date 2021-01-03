@@ -45,7 +45,7 @@ function Login() {
 console.log()
   return (
     <div className="login">
-    <iframe id="cdc90803-2a7a-4d97-8cac-c1abd3fa4f54" src="https://www.vectary.com/viewer/v1/?model=cdc90803-2a7a-4d97-8cac-c1abd3fa4f54&env=studio3" frameborder="0" width="100%" height="480"></iframe>
+    <iframe title="3d model" id="cdc90803-2a7a-4d97-8cac-c1abd3fa4f54" src="https://www.vectary.com/viewer/v1/?model=cdc90803-2a7a-4d97-8cac-c1abd3fa4f54&env=studio3" frameborder="0" width="100%" height="480"></iframe>
       <h2 className="login-title">Sign in </h2>
       <form className="login-form">
         <label>Username</label>
