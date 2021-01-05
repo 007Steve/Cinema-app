@@ -87,11 +87,11 @@ console.log()
       </form>
       <button
         className="login-btn"
-        disabled={!name}
+        // disabled={!name}
         type="submit"
          onClick={setUserHandler}
       >
-        Sign in
+       Demo
       </button>
       <br />
       <p onClick={setUserHandlerGoogle}className="google">Sign with Google</p>
