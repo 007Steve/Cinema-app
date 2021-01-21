@@ -1,5 +1,5 @@
 .moviecard {
-  margin-left: 5px;
+  margin: 0.5rem;
   position: relative;
 }
 
@@ -8,6 +8,7 @@
   object-fit: contain;
   cursor: pointer;
   transition: transform 450ms;
+  border-radius: 10px;
 }
 
 .moviecard > img:hover {
@@ -15,7 +16,7 @@
   object-fit: contain;
   cursor: pointer;
   transition: transform 450ms;
-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .moviecard__hoverInfo {

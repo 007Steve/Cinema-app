@@ -12,9 +12,7 @@
   font-weight: bolder;
   font-size: 4rem;
   margin-bottom: 3rem;
-  background: -webkit-linear-gradient(rgb(248, 227, 255), rgb(182, 182, 182));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 @media only screen and (max-width: 767px) {

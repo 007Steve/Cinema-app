@@ -1,4 +1,16 @@
 .header {
   background-color: rgb(7, 8, 8);
   margin: 0;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.4);
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(226, 214, 214, 0)
+  );
+}
+.header__texts {
+  position: absolute;
+  top: 10;
+  left: 0;
 }
