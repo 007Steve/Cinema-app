@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/Login.css";
 import { useDispatch } from "react-redux";
 import { login } from "../features/userSlice";
- import { auth, provider } from '../firebase'
+import { auth, provider } from "../firebase";
 function Login() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -24,8 +24,8 @@ function Login() {
 
   const setUserHandlerGoogle = (e) => {
     e.preventDefault();
-    auth.signInWithPopup(provider).catch((error) => alert(error.message))
-    console.log(auth)
+    auth.signInWithPopup(provider).catch((error) => alert(error.message));
+    console.log(auth);
     // dispatch(
     //   login({
     //     name: name,
@@ -38,14 +38,9 @@ function Login() {
     // addd redux from google data user
   };
 
-
-
-
-
-console.log()
+  console.log();
   return (
     <div className="login">
-    <iframe title="3d model" id="cdc90803-2a7a-4d97-8cac-c1abd3fa4f54" src="https://www.vectary.com/viewer/v1/?model=cdc90803-2a7a-4d97-8cac-c1abd3fa4f54&env=studio3" frameborder="0" width="100%" height="480"></iframe>
       <h2 className="login-title">Sign in </h2>
       <form className="login-form">
         <label>Username</label>
@@ -89,13 +84,14 @@ console.log()
         className="login-btn"
         // disabled={!name}
         type="submit"
-         onClick={setUserHandler}
+        onClick={setUserHandler}
       >
-       Demo
+        Demo
       </button>
       <br />
-      <p onClick={setUserHandlerGoogle}className="google">Sign with Google</p>
-      
+      <p onClick={setUserHandlerGoogle} className="google">
+        Sign with Google
+      </p>
     </div>
   );
 }
