@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Banner.css";
-import Nav from "./Nav";
 
 function Banner({ url }) {
   const [movie, setMovies] = useState([]);
@@ -20,7 +19,6 @@ function Banner({ url }) {
 
   return (
     <>
-     <Nav/>
       <div
         className="banner"
         style={{
@@ -29,10 +27,10 @@ function Banner({ url }) {
           backgroundPosition: "center center",
         }}
       >
-       
         <h1 className="banner-title">
           {movie?.title || movie.name || movie?.original_name}
         </h1>
+        
       </div>
     </>
   );
