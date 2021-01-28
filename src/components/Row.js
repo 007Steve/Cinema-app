@@ -13,7 +13,7 @@ function Row({ title, url }) {
     }
     fetchData();
   }, [url]);
-console.log(movies[5])
+
   return (
     <>
       <h1>{title}</h1>
