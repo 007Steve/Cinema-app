@@ -3,11 +3,11 @@
   margin: 0;
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.4);
-  mask-image: linear-gradient(
-    to bottom,
+  /* mask-image: linear-gradient(
+    to bottom ,
     rgb(255, 255, 255),
-    rgba(226, 214, 214, 0)
-  );
+    rgba(110, 97, 97, 0.829)
+  ); */
 }
 .header__texts {
   position: absolute;
