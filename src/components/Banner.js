@@ -15,7 +15,7 @@ function Banner({ url }) {
         );
     }
     fetchData();
-  }, []);
+  }, [url]);
 
   return (
     <>
