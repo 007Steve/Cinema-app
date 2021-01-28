@@ -25,7 +25,7 @@ function Login() {
   const setUserHandlerGoogle = (e) => {
     e.preventDefault();
     auth.signInWithPopup(provider).catch((error) => alert(error.message));
-    console.log(auth);
+  
     // dispatch(
     //   login({
     //     name: name,
@@ -38,7 +38,7 @@ function Login() {
     // addd redux from google data user
   };
 
-  console.log();
+ 
   return (
     <div className="login">
       <h2 className="login-title">Sign in </h2>

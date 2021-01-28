@@ -9,7 +9,7 @@ function ShowPage() {
   const API_KEY = "c79c3bbb1069dfc677dc545c70e3c5b2";
   const [movie, setMovie] = useState([]);
 
-  console.log(movie);
+
   // let id = this.props.match.params.id
 
   useEffect(() => {
